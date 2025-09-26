@@ -1,0 +1,11 @@
+# macOS 系统文件
+.DS_Store
+
+# Python 字节码文件
+__pycache__/
+*.pyc
+
+# 其他常见忽略项
+*.log
+*.env
+venv/
