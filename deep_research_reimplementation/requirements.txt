@@ -1,0 +1,51 @@
+# 核心依赖
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 可选依赖 - OpenAI支持
+openai>=1.0.0
+
+# 可选依赖 - 其他LLM支持
+# google-generativeai>=0.3.0  # Gemini
+# dashscope>=1.13.0          # 通义千问
+
+# 测试依赖
+unittest2>=1.1.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# 开发依赖
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# 性能监控
+psutil>=5.9.0
+
+# 并发处理
+concurrent-futures>=3.1.1
+
+# 数据处理
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web服务（可选）
+flask>=3.0.0
+gunicorn>=21.0.0
+
+# 配置管理
+python-dotenv>=1.0.0
+
+# 日志处理
+loguru>=0.7.0
+
+# 时间处理
+python-dateutil>=2.8.0
+
+# 缓存支持
+redis>=4.5.0  # 可选
+
+# 文档生成
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.2.0
